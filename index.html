@@ -27,7 +27,7 @@
                 type="text"
                 name="firstName"
                 id="firstName"
-                pattern="[a-z]{3,}"
+                minlength="3"
                 title="First name should be atleast 3 characters long in lowercase"
                 required
               />
@@ -38,7 +38,7 @@
                 type="text"
                 name="lastName"
                 id="lastName"
-                pattern="[a-z]{3,}"
+                minlength="3"
                 title="Last name should be atleast 3 characters long in lowercase"
                 required
               />
@@ -85,7 +85,6 @@
                 type="password"
                 name="confirmPassword"
                 id="confirmPassword"
-                min="6"
                 required
               />
             </div>
