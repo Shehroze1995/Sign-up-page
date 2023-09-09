@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div id="leftSide"></div>
+      <div id="rightSide">
+        <div class="text">
+          <h2>
+            This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.
+          </h2>
+          <h2>You know you want to.</h2>
+        </div>
+        <form action="" method="post">
+          <h2>Let's do this!</h2>
+          <div class="formLine">
+            <div class="formItem">
+              <label for="firstName">First Name</label>
+              <input type="text" name="firstName" id="firstName" required />
+            </div>
+            <div class="formItem">
+              <label for="lastName">Last Name</label>
+              <input type="text" name="lastName" id="lastName" required />
+            </div>
+          </div>
+          <div class="formLine">
+            <div class="formItem">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" required />
+            </div>
+            <div class="formItem">
+              <label for="contactNum">Phone</label>
+              <input type="number" name="contactNum" id="contactNum" required />
+            </div>
+          </div>
+          <div class="formLine">
+            <div class="formItem">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" min="6" required />
+            </div>
+            <div class="formItem">
+              <label for="confirmPassword">Confirm Password</label>
+              <input type="password" name="confirmPassword" id="confirmPassword" min="6" required />
+            </div>
+          </div>
+          <button type="submit">Create Account</button>
+          <p class="logIn">Already have an account? <a href="">Log in</a></p>
+        </form>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
